@@ -2,25 +2,6 @@
 
 Sistema backend de desafios sustentáveis que roda no terminal, sem interface gráfica.
 
-## Estrutura do Projeto
-
-```
-EcoChallengev01/
-├── src/
-│   └── com/
-│       └── ecochallenge/
-│           ├── EcoChallengeTerminal.java (Aplicação principal)
-│           ├── models/
-│           │   ├── Usuario.java
-│           │   ├── Desafio.java
-│           │   └── RegistroDesafio.java
-│           └── managers/
-│               └── GerenciadorDados.java
-├── compilar.bat (Script de compilação para Windows)
-├── executar.bat (Script de execução para Windows)
-└── README.md
-```
-
 ## Funcionalidades
 
 ### 1. Gestão de Usuário
@@ -56,19 +37,6 @@ EcoChallengev01/
 - historico.dat: histórico de desafios
 
 ## Como Usar
-
-### Windows:
-1. Execute `compilar.bat` para compilar o projeto
-2. Execute `executar.bat` para rodar a aplicação
-
-### Linux/Mac:
-```bash
-# Compilar
-javac -d . src/com/ecochallenge/*.java src/com/ecochallenge/models/*.java src/com/ecochallenge/managers/*.java
-
-# Executar
-java com.ecochallenge.EcoChallengeTerminal
-```
 
 ## Menu Principal
 
@@ -106,10 +74,6 @@ Desafios Completos: 0
 Escolha uma opção: 1
 ```
 
-## Arquivos Gerados
-
-- `usuario.dat`: Dados serializados do usuário
-- `historico.dat`: Lista serializada de desafios completados
 
 ## Tecnologias
 
